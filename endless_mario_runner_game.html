@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  Problem: Animated login ring (HTML)
+  Front-end experiment kept next to the game: a login form framed by a
+  rotating multi-color neon ring built with CSS only (the file name is
+  historical; it is not part of the runner game).
+  Context: Personal practice / experiment
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front-end</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="ring">
+        <i style="--clr:#00ff0a"></i>
+        <i style="--clr:#ff0057"></i>
+        <i style="--clr:#ffd44"></i>
+        <form class="login">
+            <h1>login</h1>
+            <div class="inputBx">
+                <input type="text" placeholder="User Name" required>
+            </div>
+            <div class="inputBx">
+                <input type="password" placeholder="PassWord" max="16" min="8" required>
+            </div>
+            <div class="logf">
+                <input type="submit" placeholder="Log in">
+            </div>
+            <div class="links">
+                <a href="#">Forgot your password ? </a>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
