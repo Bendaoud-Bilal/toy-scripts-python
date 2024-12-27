@@ -1,13 +1,13 @@
-# Problem: Choice menu A/B/C (version 0)
-# First prototype of the A/B/C menu: draws the three choices and marks the
-# selected one with '<<<'.
+# Problem: Choice menu A/B/C with keyboard keys
+# Console menu with three choices A, B, C moved with 'u' (up) and 'd' (down)
+# and validated with 'e'; selecting displays the chosen option.
 # Context: University tutorial / lab exercise (TD / TP)
 
 def main():
     """
-    Choice menu A/B/C (version 0)
+    Choice menu A/B/C with keyboard keys
     """
-    print("Choice menu A/B/C (version 0)")
+    print("Choice menu A/B/C with keyboard keys")
     pass
 
 if __name__ == "__main__":
